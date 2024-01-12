@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rflemig_ApresentacaoPrometheus_1705082000174-push-trigger-input-set
+  identifier: Build_rflemig_ApresentacaoPrometheus_1705082000174pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_rflemig_ApresentacaoPrometheus_1705082000174
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
